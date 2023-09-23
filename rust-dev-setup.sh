@@ -32,7 +32,8 @@ esac
 # a reboot may be desired after this to make sure kernel headers and libraries are reloaded
 echo '\e[32mUpdating system...\e[0m'
 sudo apt-get update
-sudo apt-get full-upgrade
+# I suggest updating the system first, but I leave that up to the user
+# sudo apt-get full-upgrade
 
 # make sure we have the packages we need
 echo '\e[32mMaking sure we have the packages we need...\e[0m'
